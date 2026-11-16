@@ -1,0 +1,25 @@
+/* Tailwind v4 entry. Compiled to css/tailwind.css.
+   Rebuild after adding new utility classes:
+   npx @tailwindcss/cli -i src/tailwind.css -o css/tailwind.css --minify */
+@import "tailwindcss";
+
+@source "../*.html";
+@source "../js/*.js";
+
+@theme {
+  --color-ink: #0A0A0B;
+  --color-ink-2: #111113;
+  --color-ink-3: #17171A;
+  --color-line: #2B2A27;
+  --color-paper: #E9E5DA;
+  --color-muted: #B0AB9F;
+  --color-dim: #6B665D;
+  --color-accent: #C9342B;
+  --color-vermilion: #E5574A;
+  --color-gold: #C2A25F;
+  --color-jade: #7FB8A4;
+
+  --font-sans: "Noto Sans SC", system-ui, sans-serif;
+  --font-display: "Noto Serif SC", "Songti SC", serif;
+  --font-brush: "Ma Shan Zheng", "STKaiti", "KaiTi", serif;
+}

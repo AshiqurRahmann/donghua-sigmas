@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>About | Donghua Sigmas</title>
+  <meta name="description" content="Meet Queen Medusa, the uploader behind Donghua Sigmas, and how each release is made.">
+  <meta name="theme-color" content="#0A0A0B">
+  <link rel="icon" href="img/logo.jpeg" type="image/jpeg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Ma+Shan+Zheng&family=Noto+Sans+SC:wght@400;500;700&family=Noto+Serif+SC:wght@600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/tailwind.css">
+  <link rel="stylesheet" href="css/custom.css">
+  <script src="js/main.js" defer></script>
+</head>
+<body data-page="about" class="min-h-screen font-sans">
+  <a href="#main" class="sr-only focus:not-sr-only focus:fixed focus:left-3 focus:top-3 focus:z-[110] focus:bg-accent focus:px-4 focus:py-2 focus:font-bold focus:text-white">Skip to content</a>
+
+  <header class="sticky top-0 z-50 border-b border-line bg-ink/85 backdrop-blur-sm">
+    <div class="mx-auto flex h-16 max-w-6xl items-center justify-between px-5 sm:px-10">
+      <a href="about.html" class="flex items-center gap-3" aria-label="Donghua Sigmas">
+        <img class="site-logo h-9 w-9" src="img/logo.jpeg" alt="" aria-hidden="true" data-logo>
+        <span class="font-display text-lg font-extrabold tracking-wide" data-brand>Donghua Sigmas</span>
+      </a>
+      <button id="nav-toggle" class="grid h-11 w-11 place-items-center md:hidden" type="button" aria-expanded="false" aria-controls="menu">
+        <span class="sr-only">Menu</span>
+        <svg width="22" height="22" viewBox="0 0 22 22" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M3 7h16M3 15h16"/></svg>
+      </button>
+      <nav id="menu" class="absolute left-0 right-0 top-16 flex-col border-b border-line bg-ink-2 px-5 pb-5 md:static md:flex-row md:items-center md:gap-9 md:border-0 md:bg-transparent md:p-0" aria-label="Main">
+        <a class="nav-link" href="about.html" aria-current="page">About</a>
+        <a class="nav-link" href="donate.html">Donate</a>
+        <a class="btn btn-primary btn-sm" data-link="discord" href="https://discord.gg/m6b5HYeMWG" target="_blank" rel="noopener">Join Discord</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" class="relative z-10 mx-auto max-w-5xl">
+    <section class="sec sec-first" aria-label="About">
+      <div class="flex flex-col gap-10 sm:flex-row sm:gap-14">
+        <div class="avatar"><img data-avatar src="img/avatar.jpeg" alt="Portrait of Queen Medusa"></div>
+        <div class="min-w-0">
+          <h1 class="font-display text-4xl font-extrabold leading-tight sm:text-6xl">I'm <span data-cfg="profile.name">Queen Medusa</span></h1>
+          <div class="mt-8 grid max-w-2xl gap-5 text-lg leading-relaxed text-paper/85">
+            <p>I started this channel because I was tired of washed-out encodes and subtitles that read like machine translation.</p>
+            <p>Now I upload anime and donghua in 4K, FHD and HD, and I read every subtitle line before it goes out. The aim is simple: a file you can press play on and forget about.</p>
+            <p>Telegram is where releases land for everyone. Discord is where you can request a title, get early access, and tell me when a line sounds wrong.</p>
+          </div>
+          <div class="mt-9 flex flex-wrap gap-4">
+            <a class="btn btn-primary" data-link="discord" href="https://discord.gg/m6b5HYeMWG" target="_blank" rel="noopener">Join Discord</a>
+            <a class="btn" data-link="telegram" href="https://t.me/Donghua_Sigmas" target="_blank" rel="noopener">Join Telegram Channel</a>
+          </div>
+          <dl id="about-stats" class="mt-12 flex gap-10"></dl>
+        </div>
+      </div>
+    </section>
+
+    <section class="sec" aria-labelledby="pipe-title">
+      <h2 id="pipe-title" class="flex items-baseline gap-3 font-display text-3xl font-bold sm:text-4xl">What every release gets <span class="cn text-2xl" aria-hidden="true">炼制</span></h2>
+      <ul class="pipe mt-10">
+        <li><h3 class="text-lg font-bold">The cleanest source</h3><p class="mt-1 max-w-xl text-muted">I pick the best source available and check it for problems before encoding starts.</p></li>
+        <li><h3 class="text-lg font-bold">Encodes that hold up</h3><p class="mt-1 max-w-xl text-muted">HEVC 10-bit for 4K and FHD to keep banding down, plus a smaller HD version for slow connections.</p></li>
+        <li><h3 class="text-lg font-bold">Subtitles read by a person</h3><p class="mt-1 max-w-xl text-muted">Timing and typesetting are fixed by hand. Signs and songs get proper styling, and the subs are soft so you can switch tracks.</p></li>
+        <li><h3 class="text-lg font-bold">Delivery</h3><p class="mt-1 max-w-xl text-muted">Donors on Discord get new episodes first. Everyone else gets them on Telegram shortly after.</p></li>
+      </ul>
+    </section>
+
+    <section class="sec" aria-labelledby="q-title">
+      <h2 id="q-title" class="flex items-baseline gap-3 font-display text-3xl font-bold sm:text-4xl">Which quality? <span class="cn text-2xl" aria-hidden="true">品阶</span></h2>
+      <p class="mt-3 max-w-xl text-muted">Most titles come in all three. Sizes are typical and vary by series.</p>
+      <div class="mt-8 overflow-x-auto">
+        <table class="w-full min-w-[560px] border-collapse text-left">
+          <thead><tr class="border-b border-line text-sm text-muted"><th class="py-3 pr-6 font-medium">Quality</th><th class="py-3 pr-6 font-medium">Format</th><th class="py-3 pr-6 font-medium">Best for</th><th class="py-3 font-medium">Size per episode</th></tr></thead>
+          <tbody class="[&_td]:border-b [&_td]:border-line [&_td]:py-5 [&_td]:pr-6">
+            <tr><td class="font-display text-2xl font-extrabold text-gold">4K</td><td>2160p, HEVC 10-bit</td><td>Big screens and OLED TVs</td><td>1.2 to 2 GB</td></tr>
+            <tr><td class="font-display text-2xl font-extrabold">FHD</td><td>1080p, HEVC 10-bit</td><td>Laptops and most TVs</td><td>300 to 600 MB</td></tr>
+            <tr><td class="font-display text-2xl font-extrabold text-muted">HD</td><td>720p, HEVC</td><td>Phones and limited data</td><td>120 to 250 MB</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="sec" aria-label="Join">
+      <div class="flex flex-col gap-6 sm:flex-row sm:items-end sm:justify-between">
+        <div>
+          <h2 class="max-w-md font-display text-3xl font-bold sm:text-4xl">Want something uploaded?</h2>
+          <p class="mt-3 max-w-md text-muted">Donors can request titles in Discord. Everyone is welcome to suggest one.</p>
+        </div>
+        <div class="flex flex-wrap gap-4">
+          <a class="btn btn-primary" data-link="discord" href="https://discord.gg/m6b5HYeMWG" target="_blank" rel="noopener">Join Discord</a>
+          <a class="btn" href="donate.html">Support the channel</a>
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+</html>

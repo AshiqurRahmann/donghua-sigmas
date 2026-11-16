@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 700" preserveAspectRatio="xMidYMax slice">
+  <defs>
+    <radialGradient id="moon" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#E9E5DA" stop-opacity=".16"/>
+      <stop offset=".72" stop-color="#E9E5DA" stop-opacity=".1"/>
+      <stop offset="1" stop-color="#E9E5DA" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="mist" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#E9E5DA" stop-opacity="0"/>
+      <stop offset=".5" stop-color="#E9E5DA" stop-opacity=".035"/>
+      <stop offset="1" stop-color="#E9E5DA" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="b1" x="-5%" y="-5%" width="110%" height="110%"><feGaussianBlur stdDeviation="5"/></filter>
+    <filter id="b2" x="-5%" y="-5%" width="110%" height="110%"><feGaussianBlur stdDeviation="2.5"/></filter>
+    <filter id="b3" x="-5%" y="-5%" width="110%" height="110%"><feGaussianBlur stdDeviation="1"/></filter>
+  </defs>
+  <circle cx="1240" cy="170" r="150" fill="url(#moon)"/>
+  <circle cx="1240" cy="170" r="62" fill="#E9E5DA" fill-opacity=".07"/>
+  <path filter="url(#b1)" fill="#E9E5DA" fill-opacity=".03"
+    d="M0 470C90 420 150 300 240 340S350 230 430 270 560 380 650 310 770 170 870 250 990 360 1070 300 1210 200 1290 290 1450 380 1600 330V700H0Z"/>
+  <rect y="360" width="1600" height="130" fill="url(#mist)"/>
+  <path filter="url(#b2)" fill="#E9E5DA" fill-opacity=".04"
+    d="M0 540C120 480 200 420 300 460S450 400 530 450 700 540 800 470 960 380 1050 440 1250 520 1350 460 1500 440 1600 490V700H0Z"/>
+  <rect y="470" width="1600" height="110" fill="url(#mist)"/>
+  <path filter="url(#b3)" fill="#E9E5DA" fill-opacity=".05"
+    d="M0 620C150 570 260 600 360 575S560 530 680 575 900 625 1000 590 1200 545 1320 580 1500 605 1600 580V700H0Z"/>
+</svg>

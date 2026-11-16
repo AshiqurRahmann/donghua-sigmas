@@ -1,0 +1,162 @@
+{
+  "brand": {
+    "name": "Donghua Sigmas",
+    "logo": "img/logo.jpeg"
+  },
+  "links": {
+    "discord": "https://discord.gg/m6b5HYeMWG",
+    "telegram": "https://t.me/Donghua_Sigmas",
+    "boosty": "https://boosty.to/"
+  },
+  "stats": [
+    {
+      "value": "12K",
+      "label": "Telegram members"
+    },
+    {
+      "value": "600+",
+      "label": "Titles uploaded"
+    },
+    {
+      "value": "3",
+      "label": "Qualities per release"
+    }
+  ],
+  "discord": {
+    "proofChannel": "#donation-proof"
+  },
+  "goal": {
+    "amount": 50,
+    "currency": "$",
+    "month": "auto",
+    "reason": "It covers this month's storage, server time and bandwidth."
+  },
+  "methods": [
+    {
+      "id": "boosty",
+      "name": "Boosty",
+      "note": "Support the channel on Boosty. Cards and international payments.",
+      "symbol": "B",
+      "type": "link",
+      "url": "https://boosty.to/",
+      "disabled": true,
+      "cta": "Coming soon"
+    }
+  ],
+  "tiers": [
+    {
+      "name": "Outer Disciple",
+      "min": 2,
+      "color": "#A39E92",
+      "perks": [
+        "Supporter role in Discord",
+        "Your name and comment on the donor wall",
+        "Access to the supporters chat"
+      ],
+      "cn": "外门弟子"
+    },
+    {
+      "name": "Inner Disciple",
+      "min": 5,
+      "color": "#7FB8A4",
+      "perks": [
+        "Everything in Supporter",
+        "Early access: new episodes land in Discord first",
+        "A vote on what gets uploaded next"
+      ],
+      "cn": "内门弟子"
+    },
+    {
+      "name": "Core Disciple",
+      "min": 10,
+      "color": "#C2A25F",
+      "perks": [
+        "Everything in Early Bird",
+        "Request one anime or donghua",
+        "Pick 4K or FHD for your request"
+      ],
+      "cn": "核心弟子"
+    },
+    {
+      "name": "Elder",
+      "min": 25,
+      "color": "#E5574A",
+      "perks": [
+        "Everything in Requester",
+        "Priority in the request queue",
+        "Up to three requests a month",
+        "Permanent Legend role"
+      ],
+      "cn": "长老"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Do I have to donate to get releases?",
+      "a": "No. New episodes still reach the Telegram channel for everyone. Donations pay for servers, storage and encoding time, and the perks are a thank-you."
+    },
+    {
+      "q": "How do I get my role?",
+      "a": "After you pay, post a screenshot of the payment in the donation channel on Discord. I check it and add your role by hand, then your name, amount and comment show up on this page."
+    },
+    {
+      "q": "Can I donate any amount?",
+      "a": "Yes. Perks unlock at the amounts above and follow your total, so small donations add up. Every amount counts toward the monthly goal and the donor wall."
+    },
+    {
+      "q": "Can I stay anonymous?",
+      "a": "Yes. Say so when you send the screenshot and I'll list you as Anonymous."
+    },
+    {
+      "q": "What is the cultivation realm bar?",
+      "a": "It tracks this month's goal. Every dollar raised moves the channel up a realm, from Mortal to Ascension. Reaching Ascension means this month's server and storage costs are covered."
+    },
+    {
+      "q": "What are donations for?",
+      "a": "Donations are voluntary and pay for servers, storage and bandwidth. They are not a purchase of content."
+    }
+  ],
+  "profile": {
+    "name": "Queen Medusa",
+    "handle": "@queen_medusa",
+    "avatar": "img/avatar.jpeg",
+    "bio": "I upload anime and donghua in 4K, FHD and HD, with subtitles I check line by line."
+  },
+  "realms": [
+    {
+      "cn": "凡人",
+      "en": "Mortal",
+      "at": 0
+    },
+    {
+      "cn": "炼气",
+      "en": "Qi Condensation",
+      "at": 10
+    },
+    {
+      "cn": "筑基",
+      "en": "Foundation Establishment",
+      "at": 25
+    },
+    {
+      "cn": "金丹",
+      "en": "Golden Core",
+      "at": 45
+    },
+    {
+      "cn": "元婴",
+      "en": "Nascent Soul",
+      "at": 65
+    },
+    {
+      "cn": "渡劫",
+      "en": "Heavenly Tribulation",
+      "at": 85
+    },
+    {
+      "cn": "飞升",
+      "en": "Ascension",
+      "at": 100
+    }
+  ]
+}
